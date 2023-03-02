@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-block: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #222;
+  background-color: whitesmoke;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+hr {
+  margin: 25px;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+
+a {
+  color: #2574a9;
+}

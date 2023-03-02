@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Timestamp Microservice | freeCodeCamp.org</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Timestamp Microservice</h1>
+    <hr />
+    <main class="container">
+      <a href="api/v1/time">Get Today date</a>
+      <p>or</p>
+      <form action="/api/v1/time" method="POST">
+        <label for="date">Type date:</label>
+        <input type="text" name="date" placeholder="YYYY-MM-DD" />
+        <button type="submit">Submit!</button>
+      </form>
+      <hr />
+      <h2>Example Output:</h2>
+      <p>
+        <code
+          >{"unix":1677781337525,"utc":"Thu, 02 Mar 2023 18:22:17 GMT"}</code
+        >
+      </p>
+    </main>
+  </body>
+</html>
