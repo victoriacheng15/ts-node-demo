@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
     "clean": "rimraf ./build",
-    "build": "pnpm clean && pnpm tsc"
+    "build": "pnpm clean && pnpm tsc",
+    "start": "node build/index.js"
   },
   "keywords": [],
   "author": "",
